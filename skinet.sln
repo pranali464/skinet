@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{46D41431-3333-483E-B0AE-90A982A727C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{46D41431-3333-483E-B0AE-90A982A727C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{FB3C4C59-970F-49EF-97A0-EB2CA53699C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{FB3C4C59-970F-49EF-97A0-EB2CA53699C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3B370609-168E-4F04-B1B5-726B35633AD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3B370609-168E-4F04-B1B5-726B35633AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skinet.Tests", "skinet.Tests\skinet.Tests.csproj", "{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{46D41431-3333-483E-B0AE-90A982A727C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{3B370609-168E-4F04-B1B5-726B35633AD6}.Release|x64.Build.0 = Release|Any CPU
 		{3B370609-168E-4F04-B1B5-726B35633AD6}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B370609-168E-4F04-B1B5-726B35633AD6}.Release|x86.Build.0 = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|x64.Build.0 = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A239A69-116C-4A6E-82F1-2BC0B49F88BD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6429FBEE-B763-425D-8324-F7C2EEFF7B33}
 	EndGlobalSection
 EndGlobal
